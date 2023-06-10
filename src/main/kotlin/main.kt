@@ -1,13 +1,13 @@
 fun main() {
 
     val premiumCustomer: Boolean = true
-    var summ = 1_500_000
+    var summ = 15_000_00
     var check = 0
 
-   if (summ <= 100_000) {
+   if (summ <= 1000_99) {
         check = summ
-   } else if (summ >= 100_100 && summ <= 1_000_000){
-       check = summ-10_000
+   } else if (summ >= 1001_00 && summ <= 10_000_99){
+       check = summ-100_00
    } else {
        check = (summ*0.95).toInt()
    }
